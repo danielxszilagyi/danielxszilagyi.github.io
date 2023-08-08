@@ -22,8 +22,8 @@ button:active {
   position: relative;
   top: 1px;
 }
-button#subM{
-   margin-top: 0.25rem;
+button#subM {
+  margin-top: 0.25rem;
 }
 input.gasCalcInput {
   border-left: 0;
@@ -36,13 +36,8 @@ input.gasCalcInput {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 15px;
 }
-#asd {
-  height: 400px;
-}
-#doge {
-  display: flex;
-}
-div.main {
+
+main.main {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -60,4 +55,31 @@ div.gasCalc {
 }
 #eredmeny {
   padding-top: 0.15rem;
+}
+p#version {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  margin-bottom: 0.3rem;
+  margin-right: 0.3rem;
+}
+span.footerContent {
+  font-size: 0.8rem;
+}
+a:link,
+a:visited,
+a:active {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: #9b5ee1;
+  text-decoration: none;
 }

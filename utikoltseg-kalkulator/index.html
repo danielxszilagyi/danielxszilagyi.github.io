@@ -8,24 +8,24 @@
   </head>
 
   <body>
-    <div class="main">
+    <main class="main">
       <div class="gasCalc">
         <br />
-        <label>Távolság <i>(km)</i>:</label>
+        <label>Távolság <em>(km)</em>:</label>
         <input
           type="number"
           class="gasCalcInput"
           id="tav"
           name="tav"
         /><br /><br />
-        <label>Fogyasztás <i>(l/100km)</i>:</label>
+        <label>Fogyasztás <em>(l/100km)</em>:</label>
         <input
           type="number"
           class="gasCalcInput"
           id="fogyasztas"
           name="c"
         /><br /><br />
-        <label>Üzemanyagár <i>(Ft/l)</i>:</label>
+        <label>Üzemanyagár <em>(Ft/l)</em>:</label>
         <input
           type="number"
           class="gasCalcInput"
@@ -35,7 +35,16 @@
         <button id="subM">SZÁMOL</button>
         <h3 id="eredmeny">Add meg az adatokat!</h3>
       </div>
-    </div>
+    </main>
     <script src="scripts/main.js"></script>
   </body>
+
+  <footer>
+    <span class="footerContent">
+      <p class="footerContent" id="version">v.01</p>
+      <a id="homeLink" href="http://danielxszilagyi.github.io" target="_self"
+        >danielxszilagyi.github.io</a
+      >
+    </span>
+  </footer>
 </html>
