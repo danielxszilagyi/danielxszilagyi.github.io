@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,600;1,6..96,400&display=swap");
+* {
+  font-family: "Bodoni Moda", serif;
+}
+html {
+  /* !Color declarations */
+  --bg: #e8e8e8;
+  --main-color: #323232;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --button: #e8e8e8;
+  --link-color: #aeaeae;
+}
+body {
+  background-color: var(--bg);
+  font-family: "Bodoni Moda", serif;
+}
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 1rem;
+}
+div.card {
+  align-items: center;
+  justify-content: center;
+  width: 15rem;
+  height: 15rem;
+  padding: 20px;
+  background: #d3d3d3;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+}
+.card h1 {
+  color: var(--font-color);
+  padding-left: 0.3rem;
+  font-family: "Bodoni Moda", serif;
+  font-weight: 601;
+  padding-top: 0;
+  margin-top: 0.5rem;
+}
+button {
+  margin: 0.5rem;
+  color: var(--font-color-sub);
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  background: var(--button);
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  cursor: pointer;
+}
+button:active {
+  color: var(--font-color-sub);
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  background: var(--button);
+  border: 2px solid var(--main-color);
+  box-shadow: 0px 0px var(--main-color);
+  transform: translate(3px, 3px);
+  cursor: pointer;
+  transition: 100ms;
+}
+
+button.disabled {
+  margin: 0.5rem;
+  color: var(--font-color-sub);
+  font-family: "Bodoni Moda", serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 5px;
+  background: var(--button);
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  cursor: not-allowed;
+}
+
+/* !FOOTER */
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  margin-bottom: 0.3rem;
+  margin-right: 0.3rem;
+}
+span.footerContent {
+  font-size: 0.8rem;
+}
+p#version {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: var(--link-color);
+}
+a:link,
+a:visited,
+a:active {
+  color: var(--link-color);
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
+  color: var(--font-color);
+  text-decoration: none;
+}

@@ -3,7 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="theme-color" content="#e8e8e8" />
+    <title>danielxszilagyi</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="card">
+        <h1>Projektek</h1>
+        <div>
+          <button
+            onclick="window.location.href='https://danielxszilagyi.github.io/utikoltseg-kalkulator/';"
+            class="projectbuttons"
+          >
+            UTIKÖLTSÉG v1
+          </button>
+          <button class="projectbuttons disabled">PROJECT 2</button>
+        </div>
+      </div>
+    </main>
+  </body>
+  <footer>
+    <span class="footerContent">
+      <p class="footerContent" id="version">v.01</p>
+      <a id="homeLink" href="http://danielxszilagyi.github.io" target="_self"
+        >danielxszilagyi.github.io</a
+      >
+    </span>
+  </footer>
+  <script>
+    document.addEventListener("visibilitychange", (event) => {
+      if (document.visibilityState == "visible") {
+        document.title = "༼ つ ╹ ╹ ༽つ";
+      } else {
+        document.title = "༼ つ ◕_◕ ༽つ";
+      }
+    });
+  </script>
 </html>
